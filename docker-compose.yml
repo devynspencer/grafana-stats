@@ -8,6 +8,7 @@ services:
     
     volumes:
       - grafana-data:/var/lib/grafana
+      - ./grafana/grafana.ini:/etc/grafana/grafana.ini
 
 volumes:
   grafana-data:
